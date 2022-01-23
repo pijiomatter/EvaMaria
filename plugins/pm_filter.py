@@ -403,11 +403,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔍 Search 🔎', switch_inline_query_current_chat=''),
             InlineKeyboardButton('👨‍💻 Owner 👨‍💻', url='https://t.me/Stephinsabu')
             ],[
-            InlineKeyboardButton('ℹ Help ℹ', callback_data='help'),
-            InlineKeyboardButton('🌟 About ⚡️', callback_data='about')
-            ],[
             InlineKeyboardButton('💡 Channel 💡', url='https://t.me/+n9FIXGblBqE1YWE1'),
             InlineKeyboardButton('📀 Group 💿', url='https://t.me/cinema_collector')
+            ],[
+            InlineKeyboardButton('ℹ Help ℹ', callback_data='help'),
+            InlineKeyboardButton('🌟 About ⚡️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
