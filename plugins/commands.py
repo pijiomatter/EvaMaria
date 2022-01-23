@@ -46,11 +46,11 @@ async def start(client, message):
             InlineKeyboardButton('🔍 Search 🔎', switch_inline_query_current_chat=''),
             InlineKeyboardButton('👨‍💻 owner 👨‍💻', url='https://t.me/stephinsabu')
             ],[
-            InlineKeyboardButton('ℹ Help ℹ', callback_data='help'),
-            InlineKeyboardButton('🌟 About ⚡️', callback_data='about')
-            ],[
             InlineKeyboardButton('💡 Channel 💡', url='https://t.me/+n9FIXGblBqE1YWE1'),
             InlineKeyboardButton('📀 Group 💿', url='https://t.me/cinema_collector')
+            ],[
+            InlineKeyboardButton('ℹ Help ℹ', callback_data='help'),
+            InlineKeyboardButton('🌟 About ⚡️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -91,11 +91,11 @@ async def start(client, message):
             InlineKeyboardButton('👨‍💻 Owner 👨‍💻', url='https://t.me/stephinsabu')
 
             ],[
-            InlineKeyboardButton('ℹ Help ℹ', callback_data='help'),
-            InlineKeyboardButton('🌟 About ⚡️', callback_data='about')
-            ],[
             InlineKeyboardButton('💡 Channel 💡', url='https://t.me/+n9FIXGblBqE1YWE1'),
             InlineKeyboardButton('📀 Group 💿', url='https://t.me/+n9FIXGblBqE1YWE1')
+            ],[
+            InlineKeyboardButton('ℹ Help ℹ', callback_data='help'),
+            InlineKeyboardButton('🌟 About ⚡️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
