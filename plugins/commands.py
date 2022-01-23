@@ -48,6 +48,9 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ℹ Help ℹ', callback_data='help'),
             InlineKeyboardButton('🌟 About ⚡️', callback_data='about')
+            ],[
+            InlineKeyboardButton('💡 Channel 💡', url='https://t.me/+n9FIXGblBqE1YWE1'),
+            InlineKeyboardButton('📀 Group 💿', url='https://t.me/cinema_collector')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -90,6 +93,9 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ℹ Help ℹ', callback_data='help'),
             InlineKeyboardButton('🌟 About ⚡️', callback_data='about')
+            ],[
+            InlineKeyboardButton('💡 Channel 💡', url='https://t.me/+n9FIXGblBqE1YWE1'),
+            InlineKeyboardButton('📀 Group 💿', url='https://t.me/+n9FIXGblBqE1YWE1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
