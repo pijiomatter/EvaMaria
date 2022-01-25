@@ -46,7 +46,7 @@ async def start(client, message):
             InlineKeyboardButton('🔍 Search 🔎', switch_inline_query_current_chat=''),
             InlineKeyboardButton('👨‍💻 owner 👨‍💻', url='https://t.me/stephinsabu')
             ],[
-            InlineKeyboardButton('💡 Channel 💡', url='https://t.me/+n9FIXGblBqE1YWE1'),
+            InlineKeyboardButton('💡 Channel 💡', url='https://t.me/+lHqB7nfKOtxhZjFl'),
             InlineKeyboardButton('📀 Group 💿', url='https://t.me/cinema_collector')
             ],[
             InlineKeyboardButton('ℹ Help ℹ', callback_data='help'),
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('👨‍💻 Owner 👨‍💻', url='https://t.me/stephinsabu')
 
             ],[
-            InlineKeyboardButton('💡 Channel 💡', url='https://t.me/+n9FIXGblBqE1YWE1'),
+            InlineKeyboardButton('💡 Channel 💡', url='https://t.me/+lHqB7nfKOtxhZjFl'),
             InlineKeyboardButton('📀 Group 💿', url='https://t.me/+n9FIXGblBqE1YWE1')
             ],[
             InlineKeyboardButton('ℹ Help ℹ', callback_data='help'),
