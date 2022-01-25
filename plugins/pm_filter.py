@@ -403,7 +403,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔍 Search 🔎', switch_inline_query_current_chat=''),
             InlineKeyboardButton('👨‍💻 Owner 👨‍💻', url='https://t.me/Stephinsabu')
             ],[
-            InlineKeyboardButton('💡 Channel 💡', url='https://t.me/+n9FIXGblBqE1YWE1'),
+            InlineKeyboardButton('💡 Channel 💡', url='https://t.me/+lHqB7nfKOtxhZjFl'),
             InlineKeyboardButton('📀 Group 💿', url='https://t.me/cinema_collector')
             ],[
             InlineKeyboardButton('ℹ Help ℹ', callback_data='help'),
@@ -437,7 +437,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🎥 Group 🎬', url='https://t.me/cinema_collector'),
             InlineKeyboardButton('♥️ Source ❤️', callback_data='source')
             ],[
-            InlineKeyboardButton('🏠 Home 🏡', callback_data='start'),
+            InlineKeyboardButton('🏠 Home 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 Close 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
